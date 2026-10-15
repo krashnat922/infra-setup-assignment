@@ -1,7 +1,7 @@
-﻿repos:
+repos:
   - repo: https://github.com/antonbabenko/pre-commit-terraform
     rev: v1.99.0
     hooks:
       - id: terraform_fmt
       - id: terraform_validate
-        files: ^terraform-backend/.*\.tf$
+        files: ^(terraform-backend|infra-tf)/.*\.tf$

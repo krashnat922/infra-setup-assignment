@@ -1,4 +1,4 @@
-# Terraform state and working directory
+# Terraform working files and state
 **/.terraform/*
 *.tfstate
 *.tfstate.*
@@ -6,6 +6,7 @@
 *.plan
 crash.log
 crash.*.log
+*.zip
 
 # Local Terraform variables
 *.tfvars
